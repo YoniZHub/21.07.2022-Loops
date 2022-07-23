@@ -2,15 +2,17 @@ import java.util.Scanner;
 
 public class targil1_solution {
     public static void main(String[] args) {
+        //seif1();
+        seif2();
+    }
 
-
+    public static void seif1() {
         //solution 1//
-        Scanner num1 = new Scanner(System.in);
-        Scanner num2 = new Scanner(System.in);
+        Scanner numInput = new Scanner(System.in);
         System.out.println("please enter int a");
-        int a = num1.nextInt();
+        int a = numInput.nextInt();
         System.out.println("please enter int b");
-        int b = num2.nextInt();
+        int b = numInput.nextInt();
 
         boolean t1 = a > b;
         boolean t2 = a < b;
@@ -26,7 +28,16 @@ public class targil1_solution {
         if (t3) {
             System.out.println(a + "=" + b);
         }
+     }
+     public static void seif2() {
 
-    }
+        int x = 5;
+        while (x < 11){
+            System.out.println(x);
+            x = x + 1;
+        }
+     }
+
+
     }
 
