@@ -3,7 +3,8 @@ import java.util.Scanner;
 public class targil1_solution {
     public static void main(String[] args) {
         //seif1();
-        seif2();
+        //seif2();
+        seif3();
     }
 
     public static void seif1() {
@@ -37,6 +38,20 @@ public class targil1_solution {
             x = x + 1;
         }
      }
+    public static void seif3(){
+
+        Scanner numInput = new Scanner(System.in);
+        System.out.println("please enter int a");
+        int a = numInput.nextInt();
+
+         while (a <= 100){
+            System.out.println(a);
+             System.out.println("please enter int a");
+             a = numInput.nextInt();
+        }
+
+    }
+
 
 
     }
